@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+}
+
+.main_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+
+}
+.card_wrapper{
+    
+    margin-top: 45px;
+    background: white;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    
+}
+.form_wrapper{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    width: 450px;
+    
+    
+}
+.title{
+    color:teal}
+
+.common_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+
+.insider_input{
+    width: 55%;
+    margin-top: 17px;
+    border: none;
+    border-bottom: 1.75px solid gray;
+    padding: 2px;
+    font-size: 13px;
+    padding-right: 5px;
+    
+
+}
+.demo{
+    border: none;
+}
+.insider_label{
+    width: 30%;
+    margin-top: 17px;
+    font-size: 16px;
+
+}
+
+.male_wrap{
+    margin-right: 5px;
+    justify-self: left;
+    
+}
+
+.female_wrap{
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.demo{
+    display: flex;
+    justify-content: left;
+    width: 55%;
+}
+
+.btn_wrapper{
+    margin-top: 20px;
+    width: 35%;
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+    align-self: center;
+    background: teal;
+    color: white;
+}
+
+.image{
+    width: 50%;
+}
+
+.btn_wrapper:hover{
+    box-shadow :inset -10.5em 0 0 0 #4f8a8a, inset 10.5em 0 0 0 #ff96ad;
+    
+}
+@media only screen and (max-width: 500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: teal;
+    }
+    
+    .main_wrapper{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+    
+    }
+    .card_wrapper{
+        
+        margin-top: 45px;
+        background: white;
+        padding: 2%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        
+    }
+    .form_wrapper{
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        flex-direction: column;
+        width: 450px;
+        
+        
+    }
+    .title{
+        color:teal}
+    
+    .common_wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+    
+    }
+    
+    .insider_input{
+        width: 70%;
+        margin-top: 17px;
+        
+        
+    
+    }
+    
+    .insider_label{
+        width: 30%;
+        margin-top: 17px;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    
+    .male_wrap{
+        margin-right: 5px;
+        justify-self: left;
+        
+    }
+    
+    .female_wrap{
+        margin-left:5px;
+        margin-right: 5px;
+    }
+    
+    .demo{
+        display: flex;
+        justify-content: left;
+        width: 55%;
+    }
+    
+    .btn_wrapper{
+        margin-top: 20px;
+        width: 35%;
+        height: 35px;
+        border-radius: 4px;
+        box-shadow: none;
+        border: none;
+        align-self: center;
+        background: teal;
+        color: white;
+    }
+    
+    .image{
+        width: 50%;
+    }   
+}
+    

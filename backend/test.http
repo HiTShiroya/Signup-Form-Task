@@ -1,0 +1,15 @@
+POST http://localhost:3333/app/signup
+Content-Type: application/json
+
+{
+    "FullName":"pal shah",
+    "UserName":"pal3piggy",
+    "Email":"paluspriyanka@gmail.com",
+    "PhoneNumber":"665555",
+    "Age":32,
+    "Gender":"female",
+    "Password":"priy",
+    "Adress":"opp LIC office"
+
+
+}
